@@ -1,0 +1,55 @@
+
+
+.darker{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.4)),url('images/wfh.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+}
+
+.bigtext{
+  font-family: 'Rubik', sans-serif;
+}
+
+.textblock{
+  color: white;
+  background-image: linear-gradient(rgba(0, 0, 0, .2),rgba(0, 0, 0, .4));
+  font-size: 2em;
+
+}
+.dec{
+  list-style-type:none;
+}
+.bigfont{
+  font-size: 2em;
+}
+
+.shadow{
+  background-image: linear-gradient(rgba(0, 0, 0, 5),rgba(0, 0, 0, .5));
+}
+.tc{
+  max-width: 250px;
+}
+
+
+
+@media screen and (max-width:768px ) {
+  .darker{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.4)),url('images/wfh.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+  }
+  .bigtext{
+    font-family: 'Rubik', sans-serif;
+  }
+  .dec{
+    list-style-type:none;
+  }
+ 
+    .bigfont{
+      font-size: 2em;
+    }
+  
+    
+}
