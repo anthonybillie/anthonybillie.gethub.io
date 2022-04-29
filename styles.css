@@ -1,5 +1,38 @@
 
 
+@media only screen and (max-width:169px) {
+  .mod{
+    padding: 0%;
+    border: 0;
+  }
+  
+  
+  
+}
+
+
+@media screen and (max-width:768px ) {
+  .darker{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.4)),url('images/wfh.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+  }
+  .bigtext{
+    font-family: 'Rubik', sans-serif;
+  }
+  .dec{
+    list-style-type:none;
+  }
+ 
+    .bigfont{
+      font-size: 2em;
+    }
+  
+    
+}
+
+
 .darker{
   background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.4)),url('images/wfh.jpg');
   background-repeat: no-repeat;
@@ -29,27 +62,4 @@
 }
 .tc{
   max-width: 250px;
-}
-
-
-
-@media screen and (max-width:768px ) {
-  .darker{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.4)),url('images/wfh.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    max-width: 100%;
-  }
-  .bigtext{
-    font-family: 'Rubik', sans-serif;
-  }
-  .dec{
-    list-style-type:none;
-  }
- 
-    .bigfont{
-      font-size: 2em;
-    }
-  
-    
 }
