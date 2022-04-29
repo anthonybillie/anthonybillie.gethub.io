@@ -1,16 +1,3 @@
-
-
-@media only screen and (max-width:169px) {
-  .mod{
-    padding: 0%;
-    border: 0;
-  }
-  
-  
-  
-}
-
-
 @media screen and (max-width:768px ) {
   .darker{
     background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.4)),url('images/wfh.jpg');
